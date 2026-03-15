@@ -13,7 +13,7 @@ An advanced, cyberpunk-styled Streamlit web application that uses a K-Nearest Ne
 - **Categorized Inputs:** Patient parameters are intuitively split into Vitals, Clinical Tests, and Lifestyle tabs.
 
 ## 🚀 Live Demo
-*(Streamlit Deployment URL will go here)*
+https://rohit-more-vitals.streamlit.app/
 
 ## ⚙️ Local Installation & Usage
 1. **Clone the repository:**
