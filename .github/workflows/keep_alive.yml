@@ -1,0 +1,14 @@
+name: Keep Streamlit App Alive
+
+on:
+  schedule:
+      - cron: '*/15 * * * *'
+        workflow_dispatch:
+
+        jobs:
+          ping:
+              runs-on: ubuntu-latest
+                  steps:
+                        - name: Ping Streamlit App
+                                run: |
+                                          curl -s --head --request GET "https://rohit-more-vitals.streamlit.app" || echo "Ping failed"
